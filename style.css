@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@300&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg: #141E46;
+    --primary-color: #FFF5E0;
+    --secondary-color: #D80032;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: var(--font-family);
+    text-align: center;
+}
+.customH1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    color: var(--secondary-color);
+}
+h1 {
+    color: var(--primary-color);
+    font-size: 5em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+
+
+.btn-jogar {
+    font-weight: 700;
+    padding: 1em 2em;
+    border: 0;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg);
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-jogar:hover {
+    color: var(--bg);
+    background-color: var(--primary-color);
+    
+}
